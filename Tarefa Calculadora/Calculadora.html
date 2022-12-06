@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>trabalho IFSUL de Minas</title>
+
+</head>
+<body class="estrutura">
+    <h1>Calculadora Javascript</h1>
+
+    <label for="valor1">Valor A: </label>
+    <input type="text" id="valor1">
+    <br><br>
+
+    <label >Operações: </label>
+    <select id="operações">
+     <option value="escolha">-- Escolha --</option>   
+     <option value="adição"> + </option>
+     <option value="subtração"> - </option>
+     <option value="multiplicação"> * </option>
+     <option value="divisão"> / </option>
+    </select>
+
+    <br><br>
+    <label for="valor2">Valor B: </label>
+    <input type="text" id="valor2">
+
+    <br><br>
+    <label for="resultado">Resultado: </label>
+    <input type="text" id="resultado"><br><br>
+    <button onclick="calculadora()" class="botao-if">Calcular com IF</button>
+    <button onclick="calculadora1()" class="botao-switch">Calcular com switch</button>
+    <script src="js/calculadora.js"></script>
+    
+</body>
+</html>

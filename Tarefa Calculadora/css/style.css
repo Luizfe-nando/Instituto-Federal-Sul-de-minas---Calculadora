@@ -1,0 +1,28 @@
+* {
+    /*Aqui dentro esta opções para o conteudo da pagina*/
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:red;
+}
+
+.estrutura{
+    width: 35%;
+    border: 2px solid black;
+    margin: 40px auto;
+    padding: 5px;
+    padding-left: 7%;
+    background-color: silver;
+}
+
+.botao-if{
+    background-color:lightgreen;
+}
+
+.botao-switch{
+    background-color: lightblue;
+}
